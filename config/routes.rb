@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   #First install through terminal: 'rails generate controller home index'
   #Change get 'home/index' to 'root 'home#index''
   root 'home#index'
