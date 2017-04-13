@@ -10,7 +10,16 @@ end
 gem 'rails', '~> 5.0.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
+#Install below using
+#bundle install
+#bundle install --without production
+#rails g bootstrap:layout application
+#Add to app/assets/stylesheets/application.css *=require devise-bootstrap-views
+#Install rails g devise:views:locale en
+#Install rails g devise:views:bootstrap_templates
 gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
